@@ -1,0 +1,15 @@
+[package]
+name = "pn-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+cucumber = "0.19"
+futures = "0.3"
+tokio = { version = "0.2.21", features = ["full"] }
+
+[[test]]
+name = "contract" 
+harness = false
